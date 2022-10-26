@@ -17,30 +17,35 @@ noStroke();
 	// grey box
 	let greyColor = color(random(120, 135), 122, (100, 125), 200);
 		fill(greyColor);
-		rect(285, 550, 475, 235, 2, 2);
-		// scale(random(.45, 2));
-	let whiteColor = color(random(220, 240), 212, random(175, 195), 200);
-	//bottom box
-		fill(whiteColor);
-		rect(100, 750, 600, 125, 2, 2,);
 		scale(random(0.5, 1.5));
+		rect(285, 550, 475, 235, 2, 2);
+		
+		
+	let whiteColor = color(random(220, 240), 212, random(175, 195), 200);
+	//bottom box (white)
+		fill(whiteColor);
+		scale(random(0.5, 1.5));
+		rect(100, 750, 600, 125, 2, 2);
+		
 
 		
 	//black box
 		fill(0, 0, 0, 220);
-    	rect(450, 35, 40, 900, 2, 2);
 		scale(random(0.25, 2));
+		// translate (random(20, 30));
+    	rect(450, 35, 40, 900, 2, 2);
+		
 
 	let redColor = color(random(200, 300), random(28, 48), 28, 200);
 	//red box
 		fill(redColor);
-		rect(200, 615, 120, 85, 2, 2,);
 		scale(random(0.15, 1));
+		rect(200, 615, 120, 85, 2, 2);
 
 	//white box
 		fill(whiteColor);
-    	rect(250, 250, 100, 400, 2, 2);
 		scale(random(0.35, 1.25));
+    	rect(250, 250, 100, 400, 2, 2);
 
 	
 }
