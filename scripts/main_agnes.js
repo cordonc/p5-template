@@ -20,20 +20,20 @@ for (var x = 0; x < width; x += width / 17) {
             line((x), mouseY+noiseVal*(random(60, 80)), (x), mouseX+noiseVal*(random(60, 80)));
             line(mouseX+noiseVal*(random(60, 80)), (y), mouseY+noiseVal*(random(60, 80)), (y));
     }
-    let rows = height / 9;
-let cols = width / 17;
-    for (row = 0; row < rows; row++) {
+//     let rows = height / 9;
+// let col = width / 17;
+//     for (row = 0; row < rows; row++) {
 
-        for (col = 0; col < rows; col++) {
-            drawThing(col * 50 + 25, row * 50 + 25);
+//         for (col = 0; col < rows; col++) {
+//             drawThing(col * 50 + 25, row * 50 + 25);
 
-    	// line(x, 0, x, height);
-    	// line(0, y, width, y);
-     	}
-     }
+//     	// line(x, 0, x, height);
+//     	// line(0, y, width, y);
+//      	}
+//      }
    
   
-    } 
+   } 
 
     function drawThing(x, y) {
         let radius = random(0, 50);
